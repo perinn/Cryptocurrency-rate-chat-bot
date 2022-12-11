@@ -1,2 +1,2 @@
-from . import default
-from . import inline
+from .currency import currency_menu
+from .crypto import crypto_menu

@@ -1,6 +1,6 @@
 from aiogram import types
 
-from loader import dp
+from bot_loader import dp
 from pycoingecko import CoinGeckoAPI
 
 cg = CoinGeckoAPI()

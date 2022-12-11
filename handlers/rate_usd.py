@@ -1,8 +1,7 @@
 from aiogram import types
-from aiogram.dispatcher.filters import state
-from loader import dp
+from bot_loader import dp
 from states.getting_rate_usd import GettingRateUsd
-from keyboards.default.crypto import crypto_menu
+from keyboards.crypto import crypto_menu
 from aiogram.dispatcher import FSMContext
 from pycoingecko import CoinGeckoAPI
 
